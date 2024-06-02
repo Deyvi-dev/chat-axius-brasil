@@ -1,5 +1,5 @@
 # Variables
-APP_NAME := chatwoot-axius-brasil
+APP_NAME := chat-axius-brasil
 RAILS_ENV ?= development
 
 # Targets

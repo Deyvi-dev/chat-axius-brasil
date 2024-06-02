@@ -1,6 +1,6 @@
 {
   "AUDIT_LOGS": {
-    "HEADER": "Registros de Auditoria",
+    "HEADER": "Fluxos",
     "HEADER_BTN_TXT": "Adicionar Registros de Auditoria",
     "LOADING": "Buscando Logs de Auditoria",
     "SEARCH_404": "Não existem itens correspondentes a esta consulta",

@@ -3,12 +3,13 @@
     <!-- List Audit Logs -->
     <div>
       <div>
-        <p
+        <!-- <p
           v-if="!uiFlags.fetchingList && !records.length"
           class="flex h-full items-center flex-col justify-center"
         >
           {{ $t('AUDIT_LOGS.LIST.404') }}
-        </p>
+        </p> -->
+        <!-- <iframe src="https://fluxo.axius.app.br/" width="100%" sandbox="allow-scripts" height="1000"></iframe> -->
         <woot-loading-state
           v-if="uiFlags.fetchingList"
           :message="$t('AUDIT_LOGS.LOADING')"
@@ -79,6 +80,7 @@ export default {
   mixins: [alertMixin, timeMixin],
   beforeRouteEnter(to, from, next) {
     // Fetch Audit Logs on page load without manual refresh
+    window.location.href = 'https://fluxo.axius.app.br/';
     next(vm => {
       vm.fetchAuditLogs();
     });

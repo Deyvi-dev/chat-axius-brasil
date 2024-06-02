@@ -14,7 +14,7 @@ agent_capacity:
   icon: 'icon-hourglass-line'
   enterprise: true
 audit_logs:
-  name: 'Audit Logs'
+  name: 'Fluxos'
   description: 'Track and trace account activities with ease with detailed audit logs.'
   enabled: true
   icon: 'icon-menu-search-line'
